@@ -1,6 +1,7 @@
+import { SpinnerOverlayService } from './../spinner-overlay.service';
 import { Component } from '@angular/core';
 
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
  
 @Component({
@@ -9,5 +10,5 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
   styleUrls: ['./spinner-overlay.component.css']
 })
 export class SpinnerOverlayComponent {
-  constructor() {}
+  constructor(public SpinnerOverlay:SpinnerOverlayService) {}
 }

@@ -14,13 +14,13 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { SpinnerInterceptor } from './spinner/spinner-interceptor';
 
 @NgModule({
+  
   declarations: [
     AppComponent,
     MapComponent,
-    
-    
     SpinnerOverlayComponent
   ],
+
   imports: [ 
     BrowserModule,
     FormsModule,
