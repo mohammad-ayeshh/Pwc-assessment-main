@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { SpinnerOverlayComponent } from './spinner/spinner-overlay/spinner-overlay.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -25,7 +26,8 @@ import { SpinnerInterceptor } from './spinner/spinner-interceptor';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    BrowserAnimationsModule 
   ],
   providers: [
     {

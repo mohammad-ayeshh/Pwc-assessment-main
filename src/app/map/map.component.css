@@ -1,14 +1,24 @@
 
 #search-bar {
 position: absolute;
+
+
+width:250px;
+height:25px;
+
+
 top: 10px;
 left: 10px;
 z-index: 5;
 }
 #search-button {
 position: absolute;
+
+width:100px;
+height:30px;
+
 top: 10px;
-left: 190px;
+left: 270px;
 z-index: 5;
 }
 
